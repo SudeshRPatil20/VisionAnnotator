@@ -1,0 +1,5 @@
+.env
+/venv
+yolo11m.pt
+/data
+/__pycache__
