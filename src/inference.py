@@ -42,8 +42,8 @@ class YOLOv11Inference:
                 
                 class_counts[cls] = class_counts.get(cls, 0) + 1
                 
-        for det in detetion:
-            det['class'] = class_counts[det['class']]
+        # for det in detetion:
+        #     det['class'] = class_counts[det['class']]
                 
         
         return {
